@@ -1,5 +1,5 @@
 {
-  "name": "ephec/calendarBundle",
+  "name": "EphecCalendarBundle",
   "type": "symfony-bundle",
   "description": "Symfony CalendarBundle",
   "keywords": [],
