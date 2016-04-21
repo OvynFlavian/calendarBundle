@@ -1,0 +1,24 @@
+{
+  "name": "ephec/calendarBundle",
+  "type": "symfony-bundle",
+  "description": "Symfony CalendarBundle",
+  "keywords": [],
+  "license": "",
+  "authors": [
+    {
+      "name": "Ovyn Flavian",
+      "email": "flavian@ovyn.be"
+    }
+  ],
+  "require":{
+    "php": ">= 5.3.2",
+    "symfony/framework-bundle": ">=2.8",
+    "twig/twig": "*",
+    "doctrine/doctrine-bundle": "*"
+  },
+  "autoload": {
+    "psr-0":{"ephec/bundle/CalendarBundle": ""}
+  },
+  "target-dir": "ephec/bundle/CalendarBundle",
+  "minimum-stability": "dev"
+}

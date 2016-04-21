@@ -1,0 +1,4 @@
+services:
+#    full_calendar_fla_calendar.example:
+#        class: fullCalendarFla\CalendarBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

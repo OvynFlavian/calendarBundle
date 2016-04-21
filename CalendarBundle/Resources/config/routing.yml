@@ -1,0 +1,17 @@
+full_calendar_fla_calendar_homepage:
+    path:     /
+    defaults: { _controller: fullCalendarFlaCalendarBundle:Calendar:index }
+
+calendar_load_events:
+    path:    /loadEvents
+    defaults: { _controller: fullCalendarFlaCalendarBundle:Calendar:loadEvent, _format: json }
+    options:
+            expose: true
+
+full_callendar_add_event:
+    path:    /addEvents
+    defaults: { _controller: fullCalendarFlaCalendarBundle:Calendar:addEvent }
+
+full_callendar_modify_event:
+    path:    /modifyEvent
+    defaults: { _controller: fullCalendarFlaCalendarBundle:Calendar:addEvent }
